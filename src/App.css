@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+    min-width: 320px;}
+
+.appContainer {
+  min-height: 100vh;
+     display: flex;
+  flex-direction: column;
+    background-color: #f9f9f9;}
+
+.content {
+  padding: 2rem;
+  flex: 1;
+      }
+
+.content h1 {
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+    }
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+    }
+
+.nav {
+  background-color: #002366; 
+  color: white;
+  padding: 1rem 2rem;
+      width: 100%;
+  position: sticky;
+      top: 0;
+  z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    }
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+      font-weight: bold;
+  transition: color 0.3s ease;
+    }
+
+.nav a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.nav ul li a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav ul li a::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+   margin-right: 10px;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/024/555/501/original/nba-logo-transparent-free-png.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+    }

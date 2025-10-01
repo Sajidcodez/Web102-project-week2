@@ -1,0 +1,108 @@
+.cardContainer {
+  max-width: 800px;
+     margin: 0 auto;
+  padding: 20px;
+     display: flex;
+  flex-direction: column;
+   gap: 30px;
+}
+
+.cardInfo {
+     text-align: center;
+  margin-bottom: 20px;
+}
+
+.cardMoreInfo h2 {
+  font-size: 2.2rem;
+  color: #002366;
+  margin-bottom: 10px;
+      }
+
+.cardWord {
+  color: #555;
+  font-size: 1.1rem;
+    margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.countCard {
+  color: #002366;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.cardLevel {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.difficulty,
+.category {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.difficulty.easy {
+  background-color: #e6f7ff;
+  color: #0066cc;
+  border: 1px solid #0066cc;
+}
+
+.difficulty.medium {
+  background-color: #fff2e6;
+  color: #ff6600;
+  border: 1px solid #ff6600;
+}
+
+.difficulty.hard {
+  background-color: #ffe6e6;
+  color: #cc0000;
+  border: 1px solid #cc0000;
+}
+
+      .category {
+  background-color: #f0f0f0;
+   color: #333;
+  border: 1px solid #ccc;
+}
+
+.controlCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nextControl {
+  background-color: #002366;
+  color: white;
+  border: none;
+     padding: 12px 24px;
+  font-size: 1.1rem;
+    border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nextControl:hover {
+  background-color: #00184d;
+}
+
+.nextControl:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 600px) {
+  .flashcard {
+    width: 320px;
+    height: 200px;
+  }
+  
+  .question,
+  .answer {
+    font-size: 1.2rem;
+  }}
