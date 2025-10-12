@@ -6,6 +6,8 @@ This web app: **Flashcard quiz game based on NBA history**
 
 Time spent: **5** hours spent in total
 
+🔗 --> [View Live Website](https://nbaquizzes.netlify.app/) 
+
 ## Required Features
 
 The following **required** functionality is completed:
